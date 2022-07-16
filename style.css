@@ -253,4 +253,23 @@ display: grid;
     margin-left: 500px;
     font-family: arial;
 }
-
+/* Media queries */
+@media (max-width: 480px) {
+    .intro1{
+        margin-top: 250px;
+    }
+    .logo {
+        font-size: 20px;
+    }
+    .intro-hint {
+        max-width: 350px;
+        text-align: center;
+    }
+    .grid {
+        margin-top: 400px;
+    }
+    .center-img {
+        width: 330px;
+        margin-left: 30px;
+    }
+}
